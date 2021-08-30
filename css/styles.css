@@ -27,17 +27,40 @@ h2 {
   color: var(--fbs-olive-green);
 }
 
-.navbar-bg-colour {
-  background-color: var(--fbs-tonal-grey);
+h3 {
+  font-family: nanum myeongjo;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--fbs-charcoal);
 }
 
-.header {
-  margin: 0;
+p {
+  font-family: urbanist;
+  font-size: 14px;
+  color: var(--fbs-charcoal);
+}
+
+.navbar-bg-colour {
+  background-color: var(--fbs-tonal-grey);
 }
 
 .portfolio-section {
   background-color: var(--fbs-warm-grey);
   margin: 0;
+}
+
+.feature-text {
+  padding: 20px;
+}
+
+.primary-button {
+  background-color: var(--fbs-mid-green);
+  border: solid 1px var(--fbs-white);
+  border-radius: 5px;
+  padding: 10px 30px;
+  font-size: 11px;
+  color: var(--fbs-white);
+  font-weight: 600;j
 }
 
 @media (max-width: 576px) {
