@@ -52,6 +52,8 @@ p {
 
 .display-img {
   box-shadow: var(--box-shadow);
+  border: 1px solid var(--fbs-soft-green);
+  border-radius: 4px;
 }
 
 .feature-text {
@@ -66,11 +68,13 @@ p {
   font-size: 11px;
   color: var(--fbs-white);
   font-weight: 600;
+  text-decoration: none;
 }
 
 .primary-button:hover {
   box-shadow: var(--box-shadow);
   background-color: var(--fbs-mid-green);
+  color: var(--fbs-white);
 }
 
 .footer {
