@@ -56,6 +56,14 @@ p {
   border-radius: 4px;
 }
 
+.about-video {
+  max-height: 400px;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  background-color: var(--fbs-warm-grey);
+}
+
 .feature-text {
   padding: 20px;
 }
