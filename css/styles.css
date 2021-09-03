@@ -34,11 +34,18 @@ h3 {
   color: var(--fbs-charcoal);
 }
 
-p {
+p,
+a {
   font-family: urbanist;
   font-size: 14px;
   color: var(--fbs-charcoal);
   text-align: left;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--fbs-mid-green);
+  text-decoration: underline;
 }
 
 .navbar-bg-colour {
