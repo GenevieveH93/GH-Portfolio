@@ -52,6 +52,10 @@ a:hover {
   background-color: var(--fbs-tonal-grey);
 }
 
+.nav-link:hover {
+  text-decoration: none;
+}
+
 .content-section {
   background-color: var(--fbs-warm-grey);
   margin: 0;
